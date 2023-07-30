@@ -7,7 +7,7 @@ int main(){
     float porHora, SalarioBruto, ImpostodeRenda, INSS, Sindicato, SalarioLiquido;
     int horaMes = 0;
 
-    printf("Informe quanto È ganho por hora: ");
+    printf("Informe quanto √© ganho por hora: ");
     scanf("%f", &porHora);
     printf("Informe quantas horas trabalha por mes: ");
     scanf("%d", &horaMes);
@@ -20,7 +20,7 @@ int main(){
     SalarioLiquido = SalarioBruto - (ImpostodeRenda + INSS + Sindicato);
 
     printf("---------------------------------------\n");
-    printf("Sal·rio Bruto : %.2fR$\n", SalarioBruto);
+    printf("Sal√°rio Bruto : %.2fR$\n", SalarioBruto);
     printf("Imposto de renda (11%%): %.2fR$\n", ImpostodeRenda);
     printf("INSS (8%%): %.2fR$\n", INSS);
     printf("Sindicato (5%%): %.2fR$\n",Sindicato);
