@@ -5,7 +5,7 @@ int main(){
     setlocale(LC_ALL, "Portuguese");
     float nota1, nota2, media;
 
-    printf("Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada pelo aluno (maior que 7).\n");
+    printf("FaÃ§a um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a mÃ©dia alcanÃ§ada pelo aluno (maior que 7).\n");
 
     printf("\nInforme a primeira nota do aluno: ");
     scanf("%f", &nota1);
