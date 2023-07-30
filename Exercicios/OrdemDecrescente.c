@@ -6,7 +6,7 @@ int valor1, valor2, valor3;
 int main(){
     setlocale(LC_ALL, "Portuguese");
 
-    printf("Faça um Programa que leia três números e mostre-os em ordem decrescente.");
+    printf("FaÃ§a um Programa que leia trÄ™s nÃºmeros e mostre-os em ordem decrescente.");
     printf("\nInsira o primeiro valor: ");
     scanf("%d", &valor1);
     printf("Insira o segundo valor: ");
