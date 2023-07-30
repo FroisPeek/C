@@ -10,7 +10,7 @@ x = 0;
 
 int main(){
     setlocale(LC_ALL, "Portuguese");
-    printf("Construa o programa que calcule a média aritmética dos números pares e a média aritmética dos números ímpares. O usuário fornecerá os valores de entrada que pode ser um número qualquer par ou ímpar. A condição de saída será o número menos 1 (-1). \n");
+    printf("Construa o programa que calcule a mÃ©dia aritmÃ©tica dos nÃºmeros pares e a mÃ©dia aritmÃ©tica dos nÃºmeros Ã­mpares. O usuÃ¡rio fornecerÃ¡ os valores de entrada que pode ser um nÃºmero qualquer par ou Ã­mpar. A condiÃ§Ã£o de saÃ­da serÃ¡ o nÃºmero menos 1 (-1). \n");
     while (1){
             printf("Informe a seguir o valor que deseja inserir: ");
             scanf("%d", &x);
@@ -28,7 +28,7 @@ int main(){
     }
     printf("Os contadores de impar: %d\n", cti);
     printf("Os contadores de par: %d", ctp);
-    printf("\nAgora seguiremos para fazer a média aritmética dos contadores a cima!");
+    printf("\nAgora seguiremos para fazer a mÃ©dia aritmÃ©tica dos contadores a cima!");
 
     char mediap = somap/ctp;
     char mediai = somai/cti;
