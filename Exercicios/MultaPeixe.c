@@ -4,7 +4,7 @@
 int main(){
     setlocale(LC_ALL, "Portuguese");
 
-    printf("Toda vez que ele traz um peso de peixes maior que o estabelecido pelo regulamento de pesca do estado de São Paulo (50 quilos) deve pagar uma multa de R$ 4,00 por quilo excedente.\n");
+    printf("Toda vez que ele traz um peso de peixes maior que o estabelecido pelo regulamento de pesca do estado de SÃ£o Paulo (50 quilos) deve pagar uma multa de R$ 4,00 por quilo excedente.\n");
 
     float PesoPeixe = 0;
     float multa = 0;
