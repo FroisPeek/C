@@ -7,6 +7,9 @@ int main(){
 
     printf("Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada pelo aluno (maior que 7).\n");
 
+    // foi declarado que a linguagem do programa é em portugues, entao temos que inserir os valores com "," para dar certo.
+    // setlocale(LC_ALL, "Portuguese");
+    
     printf("\nInforme a primeira nota do aluno: ");
     scanf("%f", &nota1);
     printf("\nInforme a segunda nota do aluno: ");
