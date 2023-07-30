@@ -7,9 +7,9 @@ char soma = 0;
 
 int main(){
     setlocale(LC_ALL, "Portuguese");
-    printf("Implemente o programa em C usando o for que calcula a soma dos primeiros n números naturais, onde n é fornecido pelo usuário.");
+    printf("Implemente o programa em C usando o for que calcula a soma dos primeiros n nÃºmeros naturais, onde n Ã© fornecido pelo usuÃ¡rio.");
 
-    printf("\nInsira o valor de 'n' para que faça a soma dos primeiros n primeiros números: ");
+    printf("\nInsira o valor de 'n' para que faÃ§a a soma dos primeiros n primeiros nÃºmeros: ");
     scanf("%d", &n);
 
     for (i = 0; i < n+1; i++){
