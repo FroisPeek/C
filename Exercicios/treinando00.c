@@ -15,5 +15,5 @@ int main(){
 
     int resultado = valorX + valorY;
 
-    printf("O resultado da soma dos valores x e y é: %d", resultado);
+    printf("O resultado da soma dos valores x e y Ã©: %d", resultado);
 }
