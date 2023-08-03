@@ -5,6 +5,7 @@ int main(){
     int i, casos, quantasC, ctCobaias = 0;
     char cobaia[10];
     int ctc = 0 , ctr = 0, cts = 0;
+    float pCoelho, pRato, pSapo;
 
     printf("Informe a quantidade de casos que serao digitados: ");
     scanf("%d", &casos);
@@ -27,6 +28,12 @@ int main(){
         else if(cobaia[0] == 'S'){
             cts += quantasC;
         }
+
+        // % = (bicho/todos) os bichos * 100
+
+        pCoelho = ((float)ctc/ctCobaias) * 100;
+        pRato = ((float)ctr/ctCobaias) * 100;
+        pSapo = ((float)cts/ctCobaias) * 100;
     }
 
     printf("\nRelatorio final: \n");
@@ -34,4 +41,7 @@ int main(){
     printf("\nTotal de coelhos: %d", ctc);
     printf("\nTotal de ratos: %d", ctr);
     printf("\nTotal de sapos: %d", cts);
+    printf("\nPercentual de coelhos: %.2f %%", pCoelho);
+    printf("\nPercentual de ratos: %.2f %%", pRato);
+    printf("\nPercentual de sapos: %.2f %%", pSapo);
 }
